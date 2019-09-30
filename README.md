@@ -1,21 +1,14 @@
-# pb-ov-biomarker-identification
+# OV serous carcinoma: Pine Biotech - Final Project
 Identification of potential biomarkers by performing differential expression analysis on existing biomarker isoforms in ovarian cancer.
 
-# OV serous carcinoma
-# Pine Biotech - Final Project
-
 # DONE
-A. gene-isoform mapping
-
-B. expression raw_count data
-	1. gene raw_count data collected from firebrowse
-	2. isoform raw_count data collected from firebrowse
-
-C. normalization
-	1. gene raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info
-	2. TO-DO
-
-------------
+	A. gene-isoform mapping
+	B. expression raw_count data:
+		1. gene raw_count data collected from firebrowse
+		2. isoform raw_count data collected from firebrowse
+	C. normalization
+		1. gene raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info
+		2. TO-DO
 
 # TO BE DONE
 	1. Filter out desired biomarkers (as sent by Chitta sir) from QN_LT file for _(DeSeq2/edgeR)_
