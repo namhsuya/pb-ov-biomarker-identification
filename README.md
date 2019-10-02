@@ -7,8 +7,8 @@ Identification of potential biomarkers by performing differential expression ana
 		1. gene raw_count data collected from firebrowse
 		2. isoform raw_count data collected from firebrowse
 	C. normalization
-		1. gene raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info ![https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allGenesRSEM_extracted.txt]geneFile
-		2. isform raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info ![https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allisoformsRSEM_extracted.txt]isoformFile
+		1. gene raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [geneFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allGenesRSEM_extracted.txt)
+		2. isform raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [isoformFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allisoformsRSEM_extracted.txt)
 
 # TO BE DONE
 	1. Filter out desired biomarkers (as sent by Chitta sir) from QN_LT file for _(DeSeq2/edgeR)_
