@@ -1,14 +1,14 @@
 # OV serous carcinoma: Pine Biotech - Final Project
 Identification of potential biomarkers by performing differential expression analysis on existing biomarker isoforms in ovarian cancer.
 
-# DONE
-## A. gene-isoform mapping
-## B. expression raw_count data:
-	1. gene raw_count data collected from firebrowse
-	2. isoform raw_count data collected from firebrowse
-## C. normalization
-	1. gene raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [geneFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allGenesRSEM_extracted.txt)
-	2. isform raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [isoformFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allisoformsRSEM_extracted.txt)
+### DONE
+1. gene-isoform mapping
+2. expression raw_count data:
+	..i. gene raw_count data collected from firebrowse
+	..ii. isoform raw_count data collected from firebrowse
+3. normalization
+	..i. gene raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [geneFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allGenesRSEM_extracted.txt)
+	..ii. isform raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [isoformFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allisoformsRSEM_extracted.txt)
 
 # TO BE DONE
 1. Filter out desired biomarkers (as sent by Chitta sir) from QN_LT file for _(DeSeq2/edgeR)_
