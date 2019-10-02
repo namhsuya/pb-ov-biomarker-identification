@@ -2,15 +2,15 @@
 Identification of potential biomarkers by performing differential expression analysis on existing biomarker isoforms in ovarian cancer.
 
 ### DONE
-1. gene-isoform mapping
-2. expression raw_count data:
-	..i. gene raw_count data collected from firebrowse
-	..ii. isoform raw_count data collected from firebrowse
-3. normalization
-	..i. gene raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [geneFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allGenesRSEM_extracted.txt)
-	..ii. isform raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [isoformFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allisoformsRSEM_extracted.txt)
+1. Gene-isoform mapping
+2. Expression raw_count data:
+..i. gene raw_count data collected from firebrowse
+..ii. isoform raw_count data collected from firebrowse
+3. Normalization
+..i. gene raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [geneFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allGenesRSEM_extracted.txt)
+..ii. isform raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [isoformFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allisoformsRSEM_extracted.txt)
 
-# TO BE DONE
+### TO BE DONE
 1. Filter out desired biomarkers (as sent by Chitta sir) from QN_LT file for _(DeSeq2/edgeR)_
 2. Map genes to their corresponding isoforms on the (isoformFile)
 3. Stage-wise segregation (5 samples each from Stage 1 to 4, and 5 from normaltype)
