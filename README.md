@@ -4,11 +4,11 @@ Identification of potential biomarkers by performing differential expression ana
 ### DONE
 1. Gene-isoform mapping
 2. Expression raw_count data
-	-gene raw_count data collected from firebrowse
-	-isoform raw_count data collected from firebrowse
+   - gene raw_count data collected from firebrowse
+   - isoform raw_count data collected from firebrowse
 3. Normalization
-	-gene raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [geneFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allGenesRSEM_extracted.txt)
-	-isform raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [isoformFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allisoformsRSEM_extracted.txt)
+   - gene raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [geneFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allGenesRSEM_extracted.txt)
+   - isform raw_count data quantile normalized + log transformed (QN_LT) on server.t-bio.info [isoformFile](https://github.com/namhsuya/pb-ov-biomarker-identification/blob/master/not_normalized/REQUIRED_stagewise_allisoformsRSEM_extracted.txt)
 
 ### TO BE DONE
 1. Filter out desired biomarkers (as sent by Chitta sir) from QN_LT file for _(DeSeq2/edgeR)_
@@ -20,3 +20,6 @@ Identification of potential biomarkers by performing differential expression ana
 	
 # HELP
 Try to go through T1, and T2 on the edu-platform for in-depth understanding
+
+100. First list item
+     - First nested list item
