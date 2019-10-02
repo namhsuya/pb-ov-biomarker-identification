@@ -3,7 +3,7 @@ Identification of potential biomarkers by performing differential expression ana
 
 ### DONE
 1. Gene-isoform mapping
-2. Expression raw_count data:
+2. Expression raw_count data
 ..1. gene raw_count data collected from firebrowse
 ..2. isoform raw_count data collected from firebrowse
 3. Normalization
