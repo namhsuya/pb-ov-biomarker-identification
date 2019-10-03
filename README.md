@@ -16,7 +16,8 @@ Identification of potential biomarkers by performing differential expression ana
 - [ ] Stage-wise segregation (5 samples each from Stage 1 to 4, and 5 from normaltype)
   - Stage 1 has only one datapoint with gene expression raw_count data_
   - There are no NORMAL/CONTROL types ('-01R-', '-01B-', '-01C-', '-02A-', '-01A-')
-- [ ] Perform DeSeq2/edgeR of stagewise pairs to try to identify stage-specific DEGs
+- [ ] Perfor DESeq2 for isoforms of selected biomarkers to study their clinical significance  
+- [ ] \(OPTIONAL)Perform Unsupervised analysis to find out stage dependency of the selected biomarkers
 	
 # HELP
 Try to go through T1, and T2 on the edu-platform for in-depth understanding
