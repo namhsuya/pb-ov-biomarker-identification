@@ -1,0 +1,2 @@
+Ensemle_ID	baseMean	log2FoldChange	lfcSE	stat	pvalue	padj
+AADAC__uc003eze.2	604.7480767	-3.224450008	1.497005075	-2.153933919	0.031245355	0.218717482
